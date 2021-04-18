@@ -165,7 +165,7 @@ async function DateAndTime(){
   var dateTime= responseJSON.datetime
   var hour = dateTime.slice(11,13)
   console.log(hour);
- if(hour>=06 && hour<=18){
+ if(hour>=6 && hour<=18){
    bg='morning.jpg'
  }else{
    bg = 'night.jpg'
